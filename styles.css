@@ -1,6 +1,8 @@
 /*  your css code here. If applicable */
 #container{
 	background-color:rgb(204, 204, 204);
+	width:60%;
+	padding:1px;
 }
 #h1{
 	text-align:center;
@@ -14,14 +16,14 @@
 #List{
 	background-color:white;
 	border-radius:10px;
-	width:600px;
+	width:92%;
 	margin-left:20px;
 	border-style:solid;
 	border-color:black;
 	margin-bottom:30px;
 	overflow:hidden;
-	display:flex;
-	align-items:center;
+	display:block;
+	flex-direction:column;
 }
 #list{
 	list-style-type:none;
@@ -30,13 +32,26 @@
 	background-color:white;
 	padding:10px;
 	border-radius:10px;
-	width:600px;
+	width:50%;
 	border-style:solid;
 	border-color:black;
-	margin-left:20px;
+	margin:20px;
+	padding-right:0px;
 	justify-content:center;
 	margin-bottom:10px;
 	overflow:hidden;
+	display:block;
+	align-items:center;
+}
+#v{
+	width:100%;
+	background-color: rgb(255, 255, 255);
 	display:flex;
+	align-items:center;
+}
+#a{
+	width:100%;
+	background-color: rgb(255, 255, 255);
+	display:block;
 	align-items:center;
 }
