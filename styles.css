@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+#container{
+	background-color:rgb(204, 204, 204);
+}
+#h1{
+	text-align:center;
+}
+#now{
+	text-align:center;
+}
+#mp3{
+	text-align:center;
+}
+#List{
+	background-color:white;
+	border-radius:10px;
+	width:600px;
+	margin-left:20px;
+	border-style:solid;
+	border-color:black;
+	margin-bottom:30px;
+	overflow:hidden;
+	display:flex;
+	align-items:center;
+}
+#list{
+	list-style-type:none;
+}
+#vdad{
+	background-color:white;
+	padding:10px;
+	border-radius:10px;
+	width:600px;
+	border-style:solid;
+	border-color:black;
+	margin-left:20px;
+	justify-content:center;
+	margin-bottom:10px;
+	overflow:hidden;
+	display:flex;
+	align-items:center;
+}
