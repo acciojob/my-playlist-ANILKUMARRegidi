@@ -1,57 +1,39 @@
-/*  your css code here. If applicable */
-#container{
-	background-color:rgb(204, 204, 204);
-	width:60%;
-	padding:1px;
-}
-#h1{
+ #container{
+	 margin:0px;
+	 padding:15px;
+	 background-color:rgb(204, 204, 204);
+	 width:650px;
+	 height:800px;
+ }
+#h{
 	text-align:center;
-}
-#now{
-	text-align:center;
-}
-#mp3{
-	text-align:center;
+	margin-top:2px;
 }
 #List{
 	background-color:white;
 	border-radius:10px;
-	width:92%;
-	margin-left:20px;
+	justify-content:center;
+	align-items:center;
+	padding:10px;
 	border-style:solid;
-	border-color:black;
-	margin-bottom:30px;
-	overflow:hidden;
-	display:block;
-	flex-direction:column;
+	
 }
 #list{
 	list-style-type:none;
+	padding:0px;
 }
 #vdad{
 	background-color:white;
-	padding:10px;
+	padding:12px;
+	margin:36px;
 	border-radius:10px;
-	width:50%;
 	border-style:solid;
-	border-color:black;
-	margin:20px;
-	padding-right:0px;
-	justify-content:center;
-	margin-bottom:10px;
-	overflow:hidden;
-	display:block;
-	align-items:center;
-}
-#v{
-	width:100%;
-	background-color: rgb(255, 255, 255);
 	display:flex;
+	justify-content:center;
 	align-items:center;
+	flex-direction:column;
 }
-#a{
-	width:100%;
-	background-color: rgb(255, 255, 255);
-	display:block;
-	align-items:center;
+#mp3{
+	text-align:left;
 }
+
