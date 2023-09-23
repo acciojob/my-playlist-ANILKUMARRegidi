@@ -1,5 +1,6 @@
 body{
 	font-family:Arial-sans-serif;
+	
 }
 #container{
 	 margin:0px;
@@ -25,6 +26,7 @@ body{
 #list{
 	list-style-type:none;
 	padding:0px;
+	text-decoration:none;
 }
 #vdad{
 	background-color:white;
