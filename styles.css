@@ -1,8 +1,12 @@
- #container{
+body{
+	font-family:Arial-sans-serif;
+}
+#container{
 	 margin:0px;
-	 padding:15px;
+	 padding:35px;
+	 padding-bottom:0px;
 	 background-color:rgb(204, 204, 204);
-	 width:100%;
+	 width:90%;
 	 height:100%;
  }
 #h{
@@ -26,12 +30,16 @@
 	background-color:white;
 	padding:12px;
 	margin:36px;
+	margin-bottom:10px;
 	border-radius:10px;
 	border-style:solid;
-	display:flex;
 	justify-content:center;
 	align-items:center;
 	flex-direction:column;
+}
+#mp3{
+	text-align:center;
+	margin-top:2px;
 }
 #p{
 	text-align:left;
