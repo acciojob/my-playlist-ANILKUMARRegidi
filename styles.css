@@ -29,7 +29,7 @@ body{
 	
 }
 #list>a{
-	text-decoration:none;
+	text-decoration-line:none;
 }
 #vdad{
 	background-color:white;
