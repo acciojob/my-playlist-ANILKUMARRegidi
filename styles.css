@@ -26,6 +26,9 @@ body{
 #list{
 	list-style-type:none;
 	padding:0px;
+	
+}
+#list>a{
 	text-decoration:none;
 }
 #vdad{
@@ -53,5 +56,6 @@ body{
 }
 #a{
 	width:100%;
+	background-color:rgb(255,255,255);
 }
 
