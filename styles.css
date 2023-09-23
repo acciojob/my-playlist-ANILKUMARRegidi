@@ -28,8 +28,8 @@ body{
 	padding:0px;
 	
 }
-#list>a{
-	text-decoration-line:none;
+#list>a>{
+	text-decoration:none;
 }
 #vdad{
 	background-color:white;
